@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by Mykhailo Nester on 4/23/21 9:48 AM
  */
 
-package dgca.verifier.app.android
+package coronago.verifier.app.android
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -41,7 +41,7 @@ import com.google.zxing.client.android.BeepManager
 import com.journeyapps.barcodescanner.BarcodeCallback
 import com.journeyapps.barcodescanner.BarcodeResult
 import com.journeyapps.barcodescanner.DefaultDecoderFactory
-import dgca.verifier.app.android.databinding.FragmentCodeReaderBinding
+import coronago.verifier.app.android.databinding.FragmentCodeReaderBinding
 
 private const val CAMERA_REQUEST_CODE = 1003
 

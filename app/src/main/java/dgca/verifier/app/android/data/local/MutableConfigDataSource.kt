@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,10 +20,10 @@
  *  Created by osarapulov on 5/17/21 8:22 AM
  */
 
-package dgca.verifier.app.android.data.local
+package coronago.verifier.app.android.data.local
 
-import dgca.verifier.app.android.data.Config
-import dgca.verifier.app.android.data.ConfigDataSource
+import coronago.verifier.app.android.data.Config
+import coronago.verifier.app.android.data.ConfigDataSource
 
 interface MutableConfigDataSource : ConfigDataSource {
 

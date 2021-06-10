@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,16 +20,16 @@
  *  Created by mykhailo.nester on 4/24/21 2:54 PM
  */
 
-package dgca.verifier.app.android.settings
+package coronago.verifier.app.android.settings
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import dgca.verifier.app.android.BuildConfig
-import dgca.verifier.app.android.data.ConfigRepository
-import dgca.verifier.app.android.data.VerifierRepository
+import coronago.verifier.app.android.BuildConfig
+import coronago.verifier.app.android.data.ConfigRepository
+import coronago.verifier.app.android.data.VerifierRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

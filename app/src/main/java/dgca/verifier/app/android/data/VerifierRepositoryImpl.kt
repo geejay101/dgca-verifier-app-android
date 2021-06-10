@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,15 +20,15 @@
  *  Created by mykhailo.nester on 4/24/21 2:16 PM
  */
 
-package dgca.verifier.app.android.data
+package coronago.verifier.app.android.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import dgca.verifier.app.android.data.local.AppDatabase
-import dgca.verifier.app.android.data.local.Key
-import dgca.verifier.app.android.data.local.Preferences
-import dgca.verifier.app.android.data.remote.ApiService
-import dgca.verifier.app.android.security.KeyStoreCryptor
+import coronago.verifier.app.android.data.local.AppDatabase
+import coronago.verifier.app.android.data.local.Key
+import coronago.verifier.app.android.data.local.Preferences
+import coronago.verifier.app.android.data.remote.ApiService
+import coronago.verifier.app.android.security.KeyStoreCryptor
 import dgca.verifier.app.decoder.base64ToX509Certificate
 import dgca.verifier.app.decoder.toBase64
 import kotlinx.coroutines.sync.Mutex

@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by mykhailo.nester on 4/24/21 2:10 PM
  */
 
-package dgca.verifier.app.android.verification
+package coronago.verifier.app.android.verification
 
 import android.app.Dialog
 import android.content.res.ColorStateList
@@ -40,11 +40,11 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.button.MaterialButton
 import dagger.hilt.android.AndroidEntryPoint
-import dgca.verifier.app.android.*
-import dgca.verifier.app.android.databinding.DialogFragmentVerificationBinding
-import dgca.verifier.app.android.model.CertificateData
-import dgca.verifier.app.android.model.CertificateModel
-import dgca.verifier.app.android.model.TestResult
+import coronago.verifier.app.android.*
+import coronago.verifier.app.android.databinding.DialogFragmentVerificationBinding
+import coronago.verifier.app.android.model.CertificateData
+import coronago.verifier.app.android.model.CertificateModel
+import coronago.verifier.app.android.model.TestResult
 
 @ExperimentalUnsignedTypes
 @AndroidEntryPoint

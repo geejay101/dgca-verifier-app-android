@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,14 +20,14 @@
  *  Created by osarapulov on 4/30/21 1:53 AM
  */
 
-package dgca.verifier.app.android.di
+package coronago.verifier.app.android.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import dgca.verifier.app.android.security.DefaultKeyStoreCryptor
-import dgca.verifier.app.android.security.KeyStoreCryptor
+import coronago.verifier.app.android.security.DefaultKeyStoreCryptor
+import coronago.verifier.app.android.security.KeyStoreCryptor
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)

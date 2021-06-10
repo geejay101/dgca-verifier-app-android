@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,16 +20,16 @@
  *  Created by mykhailo.nester on 4/24/21 5:18 PM
  */
 
-package dgca.verifier.app.android.verification
+package coronago.verifier.app.android.verification
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import dgca.verifier.app.android.FORMATTED_YEAR_MONTH_DAY
-import dgca.verifier.app.android.YEAR_MONTH_DAY
-import dgca.verifier.app.android.databinding.ItemVaccinationBinding
-import dgca.verifier.app.android.model.VaccinationModel
-import dgca.verifier.app.android.parseFromTo
+import coronago.verifier.app.android.FORMATTED_YEAR_MONTH_DAY
+import coronago.verifier.app.android.YEAR_MONTH_DAY
+import coronago.verifier.app.android.databinding.ItemVaccinationBinding
+import coronago.verifier.app.android.model.VaccinationModel
+import coronago.verifier.app.android.parseFromTo
 
 class VaccinationViewHolder(private val binding: ItemVaccinationBinding) : RecyclerView.ViewHolder(binding.root) {
 

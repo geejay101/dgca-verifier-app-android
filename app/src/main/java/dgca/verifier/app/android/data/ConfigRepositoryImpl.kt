@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,11 +20,11 @@
  *  Created by mykhailo.nester on 5/7/21 5:23 PM
  */
 
-package dgca.verifier.app.android.data
+package coronago.verifier.app.android.data
 
-import dgca.verifier.app.android.BuildConfig
-import dgca.verifier.app.android.data.local.MutableConfigDataSource
-import dgca.verifier.app.android.data.remote.RemoteConfigDataSource
+import coronago.verifier.app.android.BuildConfig
+import coronago.verifier.app.android.data.local.MutableConfigDataSource
+import coronago.verifier.app.android.data.remote.RemoteConfigDataSource
 import javax.inject.Inject
 
 class ConfigRepositoryImpl @Inject constructor(

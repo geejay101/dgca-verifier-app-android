@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by mykhailo.nester on 4/24/21 1:53 PM
  */
 
-package dgca.verifier.app.android.network
+package coronago.verifier.app.android.network
 
 import android.os.Build
 import okhttp3.Interceptor

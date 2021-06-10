@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by mykhailo.nester on 4/24/21 1:41 PM
  */
 
-package dgca.verifier.app.android.di
+package coronago.verifier.app.android.di
 
 import android.content.Context
 import com.google.gson.Gson
@@ -29,10 +29,10 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import dgca.verifier.app.android.BuildConfig
-import dgca.verifier.app.android.data.ConfigRepository
-import dgca.verifier.app.android.data.remote.ApiService
-import dgca.verifier.app.android.network.HeaderInterceptor
+import coronago.verifier.app.android.BuildConfig
+import coronago.verifier.app.android.data.ConfigRepository
+import coronago.verifier.app.android.data.remote.ApiService
+import coronago.verifier.app.android.network.HeaderInterceptor
 import okhttp3.Cache
 import okhttp3.Call
 import okhttp3.CertificatePinner

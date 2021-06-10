@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,15 +20,15 @@
  *  Created by mykhailo.nester on 4/24/21 5:18 PM
  */
 
-package dgca.verifier.app.android.verification
+package coronago.verifier.app.android.verification
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import dgca.verifier.app.android.databinding.ItemTestBinding
-import dgca.verifier.app.android.model.TestModel
-import dgca.verifier.app.android.toFormattedDateTime
+import coronago.verifier.app.android.databinding.ItemTestBinding
+import coronago.verifier.app.android.model.TestModel
+import coronago.verifier.app.android.toFormattedDateTime
 
 class TestViewHolder(private val binding: ItemTestBinding) : RecyclerView.ViewHolder(binding.root) {
 

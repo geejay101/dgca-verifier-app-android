@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by osarapulov on 4/30/21 5:01 PM
  */
 
-package dgca.verifier.app.android.worker
+package coronago.verifier.app.android.worker
 
 import android.content.Context
 import androidx.hilt.work.HiltWorker
@@ -28,9 +28,9 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
-import dgca.verifier.app.android.BuildConfig
-import dgca.verifier.app.android.data.ConfigRepository
-import dgca.verifier.app.android.data.VerifierRepository
+import coronago.verifier.app.android.BuildConfig
+import coronago.verifier.app.android.data.ConfigRepository
+import coronago.verifier.app.android.data.VerifierRepository
 import timber.log.Timber
 
 @HiltWorker

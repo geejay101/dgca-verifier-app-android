@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by osarapulov on 5/12/21 2:55 PM
  */
 
-package dgca.verifier.app.android.settings
+package coronago.verifier.app.android.settings
 
 import android.content.Intent
 import android.net.Uri
@@ -34,8 +34,8 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import dagger.hilt.android.AndroidEntryPoint
-import dgca.verifier.app.android.*
-import dgca.verifier.app.android.databinding.FragmentSettingsBinding
+import coronago.verifier.app.android.*
+import coronago.verifier.app.android.databinding.FragmentSettingsBinding
 
 @AndroidEntryPoint
 class SettingsFragment : Fragment() {

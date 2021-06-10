@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by mykhailo.nester on 4/26/21 1:53 PM
  */
 
-package dgca.verifier.app.android.data
+package coronago.verifier.app.android.data
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

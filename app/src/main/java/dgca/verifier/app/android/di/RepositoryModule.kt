@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,20 +20,20 @@
  *  Created by mykhailo.nester on 4/24/21 2:19 PM
  */
 
-package dgca.verifier.app.android.di
+package coronago.verifier.app.android.di
 
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import dgca.verifier.app.android.data.ConfigRepository
-import dgca.verifier.app.android.data.ConfigRepositoryImpl
-import dgca.verifier.app.android.data.VerifierRepository
-import dgca.verifier.app.android.data.VerifierRepositoryImpl
-import dgca.verifier.app.android.data.local.LocalConfigDataSource
-import dgca.verifier.app.android.data.local.MutableConfigDataSource
-import dgca.verifier.app.android.data.remote.DefaultRemoteConfigDataSource
-import dgca.verifier.app.android.data.remote.RemoteConfigDataSource
+import coronago.verifier.app.android.data.ConfigRepository
+import coronago.verifier.app.android.data.ConfigRepositoryImpl
+import coronago.verifier.app.android.data.VerifierRepository
+import coronago.verifier.app.android.data.VerifierRepositoryImpl
+import coronago.verifier.app.android.data.local.LocalConfigDataSource
+import coronago.verifier.app.android.data.local.MutableConfigDataSource
+import coronago.verifier.app.android.data.remote.DefaultRemoteConfigDataSource
+import coronago.verifier.app.android.data.remote.RemoteConfigDataSource
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)

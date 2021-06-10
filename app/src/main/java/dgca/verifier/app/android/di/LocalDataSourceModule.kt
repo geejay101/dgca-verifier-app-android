@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by osarapulov on 4/30/21 12:06 AM
  */
 
-package dgca.verifier.app.android.di
+package coronago.verifier.app.android.di
 
 import android.content.Context
 import androidx.room.Room
@@ -29,7 +29,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import dgca.verifier.app.android.data.local.AppDatabase
+import coronago.verifier.app.android.data.local.AppDatabase
 import javax.inject.Singleton
 
 @InstallIn(SingletonComponent::class)

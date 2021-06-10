@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,17 +20,17 @@
  *  Created by mykhailo.nester on 4/24/21 5:18 PM
  */
 
-package dgca.verifier.app.android.verification
+package coronago.verifier.app.android.verification
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import dgca.verifier.app.android.model.CertificateData
-import dgca.verifier.app.android.model.RecoveryModel
-import dgca.verifier.app.android.model.TestModel
-import dgca.verifier.app.android.model.VaccinationModel
+import coronago.verifier.app.android.model.CertificateData
+import coronago.verifier.app.android.model.RecoveryModel
+import coronago.verifier.app.android.model.TestModel
+import coronago.verifier.app.android.model.VaccinationModel
 
 class CertListAdapter(private val inflater: LayoutInflater) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

@@ -1,6 +1,6 @@
 /*
  *  ---license-start
- *  eu-digital-green-certificates / dgca-verifier-app-android
+ *  eu-digital-green-certificates / coronago.verifier.app.android
  *  ---
  *  Copyright (C) 2021 T-Systems International GmbH and all other contributors
  *  ---
@@ -20,7 +20,7 @@
  *  Created by osarapulov on 4/29/21 11:32 PM
  */
 
-package dgca.verifier.app.android.data.local
+package coronago.verifier.app.android.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
