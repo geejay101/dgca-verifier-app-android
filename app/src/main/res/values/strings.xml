@@ -55,7 +55,7 @@
     <string name="last_updated">Last Updated: %s</string>
     <string name="version">Version: %1$s</string>
     <string name="about">About</string>
-    <string name="settings_version_title">Verifier App</string>
+    <string name="settings_version_title">CoronaGo - based on the EU Verifier App</string>
     <string name="certificate_is_expired">Certificate is expired.</string>
     <string name="certificate_was_revoked">Certificate was revoked.</string>
     <string name="verification_failed">Verification failed.</string>
